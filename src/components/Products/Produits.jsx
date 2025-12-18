@@ -1,22 +1,22 @@
 import React from 'react'
-const ProductsData = [
-  {
-    id:1,
-    img: Img1,
-    title:"Chemise Femme",
-    rating:5.0,
-    author: "white",
-    Delay: "0",
-  },
-  {
-    id:2,
-    title:"Chemise Femme",
-    rating:5.0,
-    author: "white",
-    Delay: "0",
-  },
+// const ProductsData = [
+//   {
+//     id:1,
+//     img: Img1,
+//     title:"Chemise Femme",
+//     rating:5.0,
+//     author: "white",
+//     Delay: "0",
+//   },
+//   {
+//     id:2,
+//     title:"Chemise Femme",
+//     rating:5.0,
+//     author: "white",
+//     Delay: "0",
+//   },
 
-]
+// ]
 const Produits = () => {
   return (
     <div className='"mt-14 mb-12'>
@@ -32,11 +32,7 @@ const Produits = () => {
           className='grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grids-cols-5 place-items-center gap-5'
           >
             {/* card section */}
-            {
-              ProductsData.map((data) =>
-              <div></div>
-              )
-            }
+            
           </div>
         </div>
       </div>
